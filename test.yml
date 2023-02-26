@@ -1,0 +1,30 @@
+name: eman
+age: 40
+Address: "Egypt: Alex"
+active: true
+key:
+  key1: value
+  key2: 33
+  key3:
+    keyA: value
+    keyB: value
+jsonObject: { key: value, key2: 33, key3: { keyA: value, keyB: value} }
+array:
+  - item1
+  - item2
+  - { key: value }
+jsonArray: [item1, item2]
+objectsArray:
+  - key1: value
+    keyA: value
+  - key2: value
+    keyB: value
+longText_show_in_mutltiple_lins: >
+      dkdkdjjdjjklldllllco odjnnkkk
+      kmknknklnk
+      mkllkjkj dkajsjsj
+longText_run_in_mutltiple_lins: |
+      dkdkdjjdjjklldllllco odjnnkkk
+      kmknknklnk
+      mkllkjkj dkajsjsj
+
