@@ -9,5 +9,10 @@ jobs:
           run: echo "Hello World"
         - name: multiline script
           run: |
-              echo "nodepm version is $(node -v)"
-              echo "node version is $(npm -v)"
+              echo "node version is $(node -v)"
+              echo "npm version is $(npm -v)"
+        - name: python command
+          run: |
+              import platform
+              print(platform.processor())              
+          shell: python
