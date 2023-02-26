@@ -9,5 +9,5 @@ jobs:
           run: echo "Hello World"
         - name: multiline script
           run: |
-              echo "nodepm version is $(node -v)
-              echo "node version is $(npm -v)
+              echo "nodepm version is $(node -v)"
+              echo "node version is $(npm -v)"
