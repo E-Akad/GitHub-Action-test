@@ -1,6 +1,6 @@
 name: Shell Commsnds
 
-on: [push, pull_request]
+on: [pull_request]
 jobs:
     run-shell-command:
       runs-on: ubuntu-20.04
